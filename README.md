@@ -1,8 +1,8 @@
-#Fingerprint Attendance Management System (Flask)
+# Fingerprint Attendance Management System (Flask)
 
 A web-based fingerprint attendance management system built using Python Flask and SQLite. This application allows administrators to manage students, mark attendance, and generate reports through a secure and user-friendly web interface.
 
-Features
+# Features
 
 Secure admin login system
 
@@ -32,7 +32,7 @@ Database: SQLite3
 
 Server: Flask Development Server
 
-Project Structure
+# Project Structure
 attendance_app/
 │
 ├── app.py
@@ -56,7 +56,7 @@ attendance_app/
 │
 └── README.md
 
-Installation and Setup
+# Installation and Setup
 
 Follow the steps below to run the project locally.
 
