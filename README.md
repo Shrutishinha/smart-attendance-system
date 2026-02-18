@@ -151,15 +151,18 @@ CHANGE IN PRODUCTION.
 ---
 
 ## MODULE WORKFLOW
+## MODULE WORKFLOW
 
 ```mermaid
 graph TD
-A[LOGIN] --> B[DASHBOARD]
-B --> C[STUDENTS]
-B --> D[ATTENDANCE]
-B --> E[REPORTS]
-D --> F[FINGERPRINT SCAN]
-F --> G[MARK PRESENT]
+    A[Login] --> B[Dashboard]
+    B --> C[Student Management]
+    B --> D[Attendance Module]
+    B --> E[Reports]
+    D --> F[Fingerprint Scan]
+    F --> G[Mark Present]
+
+
 SECURITY LAYER
 SESSION AUTH
 
