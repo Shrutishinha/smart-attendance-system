@@ -139,66 +139,136 @@ CHANGE BEFORE PRODUCTION.
 
 ## MODULE WORKFLOW
 
-```mermaid
-graph TD
-    A[Login] --> B[Dashboard]
-    B --> C[Student Management]
-    B --> D[Attendance Module]
-    B --> E[Reports]
-    D --> F[Fingerprint Scan]
-    F --> G[Mark Present]
-SECURITY FEATURES
-SESSION-BASED AUTHENTICATION
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2200&pause=700&color=00C2FF&center=true&vCenter=true&width=950&lines=STUDENT+ATTENDANCE+SYSTEM;BIOMETRIC+ENABLED+PLATFORM;SECURE+SESSION+BASED+ARCHITECTURE;BUILT+USING+PYTHON+AND+FLASK;MODERN+WEB+APPLICATION" />
+</p>
 
-ROUTE PROTECTION
+<p align="center">
+  <img src="https://img.shields.io/badge/PYTHON-BACKEND-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/FLASK-WEB_FRAMEWORK-black?style=for-the-badge&logo=flask" />
+  <img src="https://img.shields.io/badge/SECURITY-ENABLED-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE_DEVELOPMENT-brightgreen?style=for-the-badge" />
+</p>
 
-INPUT VALIDATION
+---
 
-PARAMETERIZED QUERIES
+# 🚀 STUDENT ATTENDANCE SYSTEM
 
-SQL INJECTION PREVENTION
+A SECURE AND MODERN ATTENDANCE MANAGEMENT PLATFORM WITH BIOMETRIC INTEGRATION.
 
-PASSWORD ENCRYPTION
+DESIGNED USING PYTHON, FLASK, AND DATABASE-DRIVEN ARCHITECTURE.
 
-SCREENSHOTS
-LOGIN	DASHBOARD	REPORTS
-IMG	IMG	IMG
-ADD REAL IMAGES IN /screenshots
+---
 
-FUTURE ROADMAP
+# 🏗 SYSTEM WORKFLOW
+
+```
++-------------------+
+|       LOGIN       |
++-------------------+
+          |
+          v
++-------------------+
+|     DASHBOARD     |
++-------------------+
+   |        |        |
+   v        v        v
++----------+ +--------------+ +---------+
+| STUDENT  | |  ATTENDANCE  | | REPORTS |
+| MGMT     | |   MODULE     | | MODULE  |
++----------+ +--------------+ +---------+
+                    |
+                    v
+            +----------------+
+            | FINGERPRINT    |
+            |     SCAN       |
+            +----------------+
+                    |
+                    v
+            +----------------+
+            |  MARK PRESENT  |
+            +----------------+
+```
+
+---
+
+# 🔐 SECURITY FEATURES
+
+```
+SESSION-BASED AUTHENTICATION      ██████████████ 100%
+ROUTE PROTECTION                  ██████████████ 100%
+INPUT VALIDATION                  ██████████████ 100%
+PARAMETERIZED QUERIES             ██████████████ 100%
+SQL INJECTION PREVENTION          ██████████████ 100%
+PASSWORD ENCRYPTION               ██████████████ 100%
+```
+
+✔ SECURE LOGIN SYSTEM  
+✔ PROTECTED ROUTES  
+✔ SAFE DATABASE INTERACTIONS  
+✔ ENCRYPTED PASSWORD STORAGE  
+
+---
+
+# 🖼 SCREENSHOTS
+
+<p align="center">
+  <img src="screenshots/login.png" width="300"/>
+  <img src="screenshots/dashboard.png" width="300"/>
+  <img src="screenshots/reports.png" width="300"/>
+</p>
+
+ADD REAL IMAGES INSIDE THE `/screenshots` FOLDER.
+
+---
+
+# 🔮 FUTURE ROADMAP
+
+```
 REAL BIOMETRIC DEVICE SUPPORT
-
 CLOUD DATABASE INTEGRATION
-
-MOBILE APPLICATION
-
+MOBILE APPLICATION DEVELOPMENT
 ROLE-BASED ACCESS CONTROL
-
 REST API SUPPORT
-
 FACE RECOGNITION SYSTEM
-
 AI-BASED ATTENDANCE ANALYTICS
+```
 
-CONTRIBUTING
-<details> <summary>HOW TO CONTRIBUTE</summary>
-FORK THE REPOSITORY
+---
 
-CREATE A FEATURE BRANCH
+# 🤝 CONTRIBUTING
 
-COMMIT CHANGES
+<details>
+<summary>HOW TO CONTRIBUTE</summary>
 
-PUSH TO YOUR BRANCH
-
-SUBMIT PULL REQUEST
+1. FORK THE REPOSITORY  
+2. CREATE A FEATURE BRANCH  
+3. COMMIT YOUR CHANGES  
+4. PUSH TO YOUR BRANCH  
+5. SUBMIT A PULL REQUEST  
 
 </details>
-LICENSE
+
+---
+
+# 📜 LICENSE
+
 THIS PROJECT IS LICENSED UNDER THE MIT LICENSE.
 
-AUTHOR
-SHRUTI
-COMPUTER SCIENCE STUDENT
+---
 
-SKILLS:
-PYTHON | FLASK | MACHINE LEARNING | WEB DEVELOPMENT
+# 👩‍💻 AUTHOR
+
+**SHRUTI**  
+COMPUTER SCIENCE STUDENT  
+
+SKILLS:  
+PYTHON | FLASK | MACHINE LEARNING | WEB DEVELOPMENT  
+
+---
+
+<p align="center">
+✨ THANK YOU FOR VISITING THIS PROJECT ✨  
+⭐ PLEASE GIVE IT A STAR IF YOU FIND IT USEFUL ⭐
+</p>
+
