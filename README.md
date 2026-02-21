@@ -1,72 +1,117 @@
+<!-- ============================================= -->
+<!-- 🔥 ANIMATED HEADER SECTION -->
+<!-- ============================================= -->
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=500&color=2F81F7&center=true&vCenter=true&width=900&lines=FINGERPRINT+ATTENDANCE+MANAGEMENT+SYSTEM;BUILT+WITH+FLASK+AND+SQLITE;SECURE+WEB+ATTENDANCE+PLATFORM;DEVELOPED+BY+SHRUTI" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=1000&height=80&lines=FINGERPRINT+ATTENDANCE+MANAGEMENT+SYSTEM;BIOMETRIC+WEB+APPLICATION;POWERED+BY+FLASK+AND+SQLITE;SECURE+%7C+SCALABLE+%7C+MODERN;DEVELOPED+BY+SHRUTI+SINHA" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PYTHON-3.8+-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/FLASK-WEB-green?style=for-the-badge&logo=flask" />
-  <img src="https://img.shields.io/badge/SQLITE-DATABASE-orange?style=for-the-badge&logo=sqlite" />
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE-success?style=for-the-badge" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=ATTENDANCE%20SYSTEM&fontSize=40&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 ---
 
-# FINGERPRINT ATTENDANCE MANAGEMENT SYSTEM
+<!-- ============================================= -->
+<!-- 🚀 BADGES SECTION -->
+<!-- ============================================= -->
 
-> A MODERN, SECURE, AND SCALABLE WEB-BASED ATTENDANCE SYSTEM USING PYTHON FLASK AND SQLITE.
-
----
-
-## PROJECT OVERVIEW
-
-THIS PROJECT PROVIDES A SMART DIGITAL PLATFORM FOR MANAGING STUDENT ATTENDANCE USING A SIMULATED FINGERPRINT AUTHENTICATION MECHANISM. IT HELPS REDUCE MANUAL ERRORS, IMPROVE DATA ACCURACY, AND GENERATE DETAILED REPORTS.
-
----
-
-## SYSTEM CAPABILITIES
-
-LOGIN SYSTEM ██████████████ 100%
-STUDENT MANAGEMENT ██████████████ 100%
-ATTENDANCE MODULE ████████████░░ 90%
-REPORTING SYSTEM ███████████░░░ 85%
-SECURITY FEATURES ████████████░░ 90%
-
+<p align="center">
+  <img src="https://img.shields.io/badge/PYTHON-3.8+-blue?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FLASK-WEB_FRAMEWORK-black?style=for-the-badge&logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLITE-DATABASE-orange?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/SECURITY-ENABLED-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-brightgreen?style=for-the-badge" />
+</p>
 
 ---
 
-## FEATURES
+# ✨ PROJECT OVERVIEW
 
-- SECURE ADMIN AUTHENTICATION  
-- STUDENT AND CLASS MANAGEMENT  
-- FINGERPRINT SIMULATION  
-- REAL-TIME ATTENDANCE TRACKING  
-- DETAILED REPORTS  
-- CSV EXPORT SUPPORT  
-- RESPONSIVE USER INTERFACE  
-- SESSION MANAGEMENT  
+> A MODERN, BIOMETRIC-INSPIRED WEB APPLICATION BUILT USING FLASK AND SQLITE TO AUTOMATE ATTENDANCE MANAGEMENT.
+
+THIS SYSTEM REDUCES MANUAL WORK, IMPROVES DATA ACCURACY, AND PROVIDES REAL-TIME ATTENDANCE TRACKING.
 
 ---
 
-## TECHNOLOGY STACK
+# ⚡ SYSTEM CAPABILITIES
 
-| LAYER     | TECHNOLOGY |
-|-----------|------------|
-| BACKEND   | PYTHON + FLASK |
-| FRONTEND  | HTML + CSS + JAVASCRIPT |
-| DATABASE  | SQLITE3 |
-| SERVER    | FLASK DEVELOPMENT SERVER |
+
+LOGIN SYSTEM █████████████████████ 100%
+STUDENT MANAGEMENT █████████████████████ 100%
+ATTENDANCE TRACKING ██████████████████░░ 95%
+REPORT GENERATION █████████████████░░░ 90%
+SECURITY IMPLEMENTATION █████████████████████ 100%
+UI RESPONSIVENESS ██████████████████░░ 95%
+
 
 ---
 
-## PROJECT STRUCTURE
+# 🧠 CORE FEATURES
+
+- 🔐 SECURE ADMIN LOGIN  
+- 👨‍🎓 STUDENT REGISTRATION & MANAGEMENT  
+- 🖐 FINGERPRINT SIMULATION MODULE  
+- 📊 REAL-TIME ATTENDANCE DASHBOARD  
+- 📁 CSV REPORT EXPORT  
+- 🛡 PASSWORD HASHING  
+- 📱 RESPONSIVE MODERN UI  
+- ⚡ FAST SQLITE DATABASE  
+
+---
+
+# 🏗 SYSTEM WORKFLOW
+
+    +-------------------+
+    |       LOGIN       |
+    +-------------------+
+              |
+              v
+    +-------------------+
+    |     DASHBOARD     |
+    +-------------------+
+      |        |        |
+      v        v        v
++---------+ +-----------+ +---------+
+| STUDENT | | ATTENDANCE| | REPORTS |
+| MODULE  | |  MODULE   | | MODULE  |
++---------+ +-----------+ +---------+
+                |
+                v
+        +----------------+
+        | FINGERPRINT    |
+        | SIMULATION     |
+        +----------------+
+                |
+                v
+        +----------------+
+        |  MARK PRESENT  |
+        +----------------+
+
+---
+
+# 💻 TECHNOLOGY STACK
+
+| LAYER        | TECHNOLOGY |
+|--------------|------------|
+| BACKEND      | PYTHON + FLASK |
+| FRONTEND     | HTML5 + CSS3 + JAVASCRIPT |
+| DATABASE     | SQLITE3 |
+| SECURITY     | HASHLIB / SESSION MGMT |
+| SERVER       | FLASK DEV SERVER |
+
+---
+
+# 📂 PROJECT STRUCTURE
 
 <details>
-<summary>CLICK TO EXPAND</summary>
+<summary>📁 CLICK TO EXPAND STRUCTURE</summary>
+
 
 attendance_app/
 │
 ├── app.py
-├── database.db
+├── database_setup.py
 ├── requirements.txt
 │
 ├── templates/
@@ -82,6 +127,11 @@ attendance_app/
 │ ├── css/style.css
 │ └── js/script.js
 │
+├── screenshots/
+│ ├── login.png
+│ ├── dashboard.png
+│ └── reports.png
+│
 └── README.md
 
 
@@ -89,186 +139,72 @@ attendance_app/
 
 ---
 
-## INSTALLATION GUIDE
+# ⚙ INSTALLATION GUIDE
 
-### STEP 1: CLONE REPOSITORY
+### 1️⃣ CLONE REPOSITORY
 
+```bash
 git clone https://github.com/your-username/fingerprint-attendance-system.git
 cd fingerprint-attendance-system
-
-
----
-
-### STEP 2: INSTALL DEPENDENCIES
-
+2️⃣ INSTALL DEPENDENCIES
 pip install -r requirements.txt
-
-
----
-
-### STEP 3: INITIALIZE DATABASE
-
+3️⃣ INITIALIZE DATABASE
 python database_setup.py
-
-
----
-
-### STEP 4: RUN APPLICATION
-
+4️⃣ RUN APPLICATION
 python app.py
-
-
----
-
-### STEP 5: OPEN IN BROWSER
-
+5️⃣ OPEN IN BROWSER
 http://localhost:5000
-
-
----
-
-## DEFAULT LOGIN CREDENTIALS
-
+🔐 DEFAULT LOGIN
 USERNAME: admin
 PASSWORD: admin123
 
+⚠ CHANGE BEFORE DEPLOYMENT
 
-CHANGE BEFORE PRODUCTION.
+🛡 SECURITY IMPLEMENTATION
+SESSION AUTHENTICATION       ████████████████████ 100%
+ROUTE PROTECTION             ████████████████████ 100%
+PASSWORD HASHING             ████████████████████ 100%
+SQL INJECTION PREVENTION     ████████████████████ 100%
+INPUT VALIDATION             ████████████████████ 100%
 
----
+✔ ENCRYPTED PASSWORD STORAGE
+✔ SAFE DATABASE QUERIES
+✔ PROTECTED ADMIN ROUTES
 
-## MODULE WORKFLOW
+📊 GITHUB STATS (AUTO ANIMATED)
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&hide_border=true" height="160"/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight&hide_border=true" height="160"/> </p>
+🚀 FUTURE ROADMAP
+☑ ROLE-BASED ACCESS CONTROL
+☑ MOBILE APPLICATION VERSION
+☑ CLOUD DATABASE INTEGRATION
+☑ REST API DEVELOPMENT
+☑ FACE RECOGNITION MODULE
+☑ AI-BASED ATTENDANCE ANALYTICS
+☑ REAL BIOMETRIC DEVICE SUPPORT
+🤝 CONTRIBUTING
+<details> <summary>CLICK TO VIEW CONTRIBUTION STEPS</summary>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2200&pause=700&color=00C2FF&center=true&vCenter=true&width=950&lines=STUDENT+ATTENDANCE+SYSTEM;BIOMETRIC+ENABLED+PLATFORM;SECURE+SESSION+BASED+ARCHITECTURE;BUILT+USING+PYTHON+AND+FLASK;MODERN+WEB+APPLICATION" />
-</p>
+FORK THE REPOSITORY
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PYTHON-BACKEND-blue?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/FLASK-WEB_FRAMEWORK-black?style=for-the-badge&logo=flask" />
-  <img src="https://img.shields.io/badge/SECURITY-ENABLED-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE_DEVELOPMENT-brightgreen?style=for-the-badge" />
-</p>
+CREATE A FEATURE BRANCH
 
----
+COMMIT CHANGES
 
-# 🚀 STUDENT ATTENDANCE SYSTEM
+PUSH TO YOUR BRANCH
 
-A SECURE AND MODERN ATTENDANCE MANAGEMENT PLATFORM WITH BIOMETRIC INTEGRATION.
-
-DESIGNED USING PYTHON, FLASK, AND DATABASE-DRIVEN ARCHITECTURE.
-
----
-
-# 🏗 SYSTEM WORKFLOW
-
-```
-+-------------------+
-|       LOGIN       |
-+-------------------+
-          |
-          v
-+-------------------+
-|     DASHBOARD     |
-+-------------------+
-   |        |        |
-   v        v        v
-+----------+ +--------------+ +---------+
-| STUDENT  | |  ATTENDANCE  | | REPORTS |
-| MGMT     | |   MODULE     | | MODULE  |
-+----------+ +--------------+ +---------+
-                    |
-                    v
-            +----------------+
-            | FINGERPRINT    |
-            |     SCAN       |
-            +----------------+
-                    |
-                    v
-            +----------------+
-            |  MARK PRESENT  |
-            +----------------+
-```
-
----
-
-# 🔐 SECURITY FEATURES
-
-```
-SESSION-BASED AUTHENTICATION      ██████████████ 100%
-ROUTE PROTECTION                  ██████████████ 100%
-INPUT VALIDATION                  ██████████████ 100%
-PARAMETERIZED QUERIES             ██████████████ 100%
-SQL INJECTION PREVENTION          ██████████████ 100%
-PASSWORD ENCRYPTION               ██████████████ 100%
-```
-
-✔ SECURE LOGIN SYSTEM  
-✔ PROTECTED ROUTES  
-✔ SAFE DATABASE INTERACTIONS  
-✔ ENCRYPTED PASSWORD STORAGE  
-
----
-
-# 🖼 SCREENSHOTS
-
-<p align="center">
-  <img src="screenshots/login.png" width="300"/>
-  <img src="screenshots/dashboard.png" width="300"/>
-  <img src="screenshots/reports.png" width="300"/>
-</p>
-
-ADD REAL IMAGES INSIDE THE `/screenshots` FOLDER.
-
----
-
-# 🔮 FUTURE ROADMAP
-
-```
-REAL BIOMETRIC DEVICE SUPPORT
-CLOUD DATABASE INTEGRATION
-MOBILE APPLICATION DEVELOPMENT
-ROLE-BASED ACCESS CONTROL
-REST API SUPPORT
-FACE RECOGNITION SYSTEM
-AI-BASED ATTENDANCE ANALYTICS
-```
-
----
-
-# 🤝 CONTRIBUTING
-
-<details>
-<summary>HOW TO CONTRIBUTE</summary>
-
-1. FORK THE REPOSITORY  
-2. CREATE A FEATURE BRANCH  
-3. COMMIT YOUR CHANGES  
-4. PUSH TO YOUR BRANCH  
-5. SUBMIT A PULL REQUEST  
+CREATE PULL REQUEST
 
 </details>
-
----
-
-# 📜 LICENSE
+📜 LICENSE
 
 THIS PROJECT IS LICENSED UNDER THE MIT LICENSE.
 
----
+👩‍💻 AUTHOR
 
-# 👩‍💻 AUTHOR
+SHRUTI SINHA
+COMPUTER SCIENCE STUDENT
 
-**SHRUTI**  
-COMPUTER SCIENCE STUDENT  
+SKILLS:
+PYTHON • FLASK • MACHINE LEARNING • WEB DEVELOPMENT • DATABASE DESIGN
 
-SKILLS:  
-PYTHON | FLASK | MACHINE LEARNING | WEB DEVELOPMENT  
-
----
-
-<p align="center">
-✨ THANK YOU FOR VISITING THIS PROJECT ✨  
-⭐ PLEASE GIVE IT A STAR IF YOU FIND IT USEFUL ⭐
-</p>
-
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/> </p> <p align="center"> ⭐ IF YOU LIKE THIS PROJECT, PLEASE GIVE IT A STAR ⭐ ✨ THANK YOU FOR VISITING ✨ </p> ```
