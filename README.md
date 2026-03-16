@@ -3,7 +3,7 @@
 <!-- ============================================= -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=1000&height=80&lines=FINGERPRINT+ATTENDANCE+MANAGEMENT+SYSTEM;BIOMETRIC+WEB+APPLICATION;POWERED+BY+FLASK+AND+SQLITE;SECURE+%7C+SCALABLE+%7C+MODERN;DEVELOPED+BY+SHRUTI+SINHA" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=1000&height=80&lines=FINGERPRINT+ATTENDANCE+MANAGEMENT+SYSTEM;BIOMETRIC+WEB+APPLICATION;POWERED+BY+FLASK+AND+SQLITE;SECURE+%7C+SCALABLE+%7C+MODERN;DEVELOPED+BY+SHRUTI+SINHA" /> hi
 </p>
 
 <p align="center">
